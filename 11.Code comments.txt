@@ -1,0 +1,8 @@
+11.Code comments:
+Explains the importance of code comments.
+Two types of code comments.
+Single line comment //
+Multiline comment
+/*
+*/
+Comments should never say what. Comment says why or how.

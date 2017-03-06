@@ -1,0 +1,2 @@
+7.Practice Coding:
+Explains how to get to javascript console in chrome and run it there.

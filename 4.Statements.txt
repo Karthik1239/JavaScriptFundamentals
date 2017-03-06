@@ -1,0 +1,4 @@
+4.Statements:
+In a computer language, a group of words, numbers and operators that perform a specific task is a statement.
+Ex: a = a * 2;
+Someone in chat room comments: "Wow the very beginning".

@@ -1,0 +1,2 @@
+1. Introduction:
+Kyle gives introduction about the course. He starts the course from a very basic level assuming that listeners have zero knowledge about javascript.

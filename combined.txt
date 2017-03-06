@@ -1,0 +1,83 @@
+1. Introduction:
+Kyle gives introduction about the course. He starts the course from a very basic level assuming that listeners have zero knowledge about javascript.
+
+2.Kyle's Work:
+Explain's his background. Makes an interesting comment about mindset in industry: "You will see lots of people in this industry that take the habit that all I need to do is learn just enough to get this one feature done so my boss is happy, and then I don't go any further". He continues "In fact, out industry rewards that type of mindset."
+
+3.Introduction to programming:
+Really basic concepts are discussed like: High level language, source code and syntax.
+
+4.Statements:
+In a computer language, a group of words, numbers and operators that perform a specific task is a statement.
+Ex: a = a * 2;
+Someone in chat room comments: "Wow the very beginning”.
+
+5.Expressions:
+Statements are made up of one or more expressions. An expression is any reference to a variable or value, or a set of variables(s) and value(s) combined with operators.
+Example: (a = ((b) * (2)))
+
+Talks about operator precedence in javascript.
+
+6.Executing a program:
+Talks about executing/running of a javascript program. Explains about how high level language instrutions are converted into low level language. There is a javascript engine that does this conversion.
+Talks about the difference between interpreted language vs compiled language.
+Compilation has more than one pass through your program.
+Example:
+a = 2;
+2();
+In an interpreted langauge, line 1 is run first and then see that line 2 has an error and throw an error.
+In a complied language, first pass is not executing the program, its understanding the program. Checking whether the program is valid. So it would flag line2 as problem before ever running line1.
+
+Javascript is a compiled language. Myth:Lot of people think Javascript is an interpreted language.
+
+7.Practice Coding:
+Explains how to get to javascript console in chrome and run it there.
+
+8. Input and output:
+Talks about alert(comes from the browser not javascript), console.log and prompt.
+
+Javascript Syntax:
+9.Operators:
+Talks about how javascript operators work.
+
+10. Values and Types:
+In javascript there is no difference between using single quotes and double quotes to represent strings.
+var a = 42;
+a holds a number type.
+var a = "42"
+a holds a string type.
+Explicit conversion.
+a = 42;
+a = String(a);
+b = Number(a);
+
+In javascript variables donot have type, values have type.
+So a donot have any type the value 42 is of type number.
+
+Implicit conversion:
+var a = 42;
+
+console.log(a);
+
+a = a + ""
+
+console.log(a);
+
+You can see a subtle color difference in console number 42 will be blue and string 42 will be black because of their type.
+
+Like final in java we have something called const in javascript ES6.
+
+For example
+const a = 42;
+a = 10;
+
+It either silently fails or throws an error depending on the strict mode.
+
+11.Code comments:
+Explains the importance of code comments.
+Two types of code comments.
+Single line comment //
+Multiline comment
+/*
+*/
+Comments should never say what. Comment says why or how.

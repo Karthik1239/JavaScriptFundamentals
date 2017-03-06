@@ -1,0 +1,32 @@
+10. Values and Types:
+In javascript there is no difference between using single quotes and double quotes to represent strings.
+var a = 42;
+a holds a number type.
+var a = "42"
+a holds a string type.
+Explicit conversion.
+a = 42;
+a = String(a);
+b = Number(a);
+
+In javascript variables donot have type, values have type. 
+So a donot have any type the value 42 is of type number.
+
+Implicit conversion:
+var a = 42;
+
+console.log(a);
+
+a = a + ""
+
+console.log(a);
+
+You can see a subtle color difference in console number 42 will be blue and string 42 will be black because of their type.
+
+Like final in java we have something called const in javascript ES6.
+
+For example 
+const a = 42;
+a = 10;
+
+It either silently fails or throws an error depending on the strict mode.

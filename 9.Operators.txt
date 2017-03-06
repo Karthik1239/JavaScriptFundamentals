@@ -1,0 +1,3 @@
+Javascript Syntax:
+9.Operators:
+Talks about how javascript operators work.

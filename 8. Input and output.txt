@@ -1,0 +1,2 @@
+8. Input and output:
+Talks about alert(comes from the browser not javascript), console.log and prompt.

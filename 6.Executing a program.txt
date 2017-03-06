@@ -1,0 +1,11 @@
+6.Executing a program:
+Talks about executing/running of a javascript program. Explains about how high level language instrutions are converted into low level language. There is a javascript engine that does this conversion.
+Talks about the difference between interpreted language vs compiled language.
+Compilation has more than one pass through your program.
+Example:
+a = 2;
+2();
+In an interpreted langauge, line 1 is run first and then see that line 2 has an error and throw an error.
+In a complied language, first pass is not executing the program, its understanding the program. Checking whether the program is valid. So it would flag line2 as problem before ever running line1.
+
+Javascript is a compiled language. Myth:Lot of people think Javascript is an interpreted language.
