@@ -81,3 +81,67 @@ Multiline comment
 /*
 */
 Comments should never say what. Comment says why or how.
+
+12. Variables and Blocks:
+ var a = 43;
+ let b = 43;
+ const c = 43;
+ function d() {}
+
+ Are the ways to formally declare variables.
+
+Block example:
+ {
+ 	var a = 42;
+ 	foo(1/2);
+ }
+
+Block associated to an if statement:
+ if (a < 10)
+ {
+ 	var a = 42;
+ 	foo(1/2);
+ }
+
+ 13.Conditional Statement:
+
+"Falsy values": [0, -0, NaN, "", false, null, undefined]
+
+The void operator evaluates the given expression and then returns undefined.
+
+The void operator is often used merely to obtain the undefined primitive value, usually using “void(0)” (which is equivalent to “void 0”). In these cases, the global variable undefined can be used instead (assuming it has not been assigned to a non-default value).
+
+14.Loops
+
+while(a > 10) {..}
+
+for(a = 5; a < 10; a++)
+a = 5 -> Initialization expression
+a < 10 -> conditional expression
+a++ -> Update clause
+
+15.Functions
+A function is a way to logically group a piece of code together, that can be called.
+
+Example:
+function abc() {
+    console.log("21");
+}
+
+Argument vs Parameter:
+Its an argument when you pass it in, its a parameter when you declare.
+
+
+Passing function as an argument.
+function foo(b) {
+	var a = b();
+	console.log(a)
+}
+
+function bar() {
+	return "bar";
+}
+
+foo(bar);
+
+Result: bar

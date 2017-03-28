@@ -1,0 +1,8 @@
+14.Loops
+
+while(a > 10) {..}
+
+for(a = 5; a < 10; a++)
+a = 5 -> Initialization expression
+a < 10 -> conditional expression
+a++ -> Update clause

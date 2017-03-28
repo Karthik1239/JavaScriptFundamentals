@@ -1,0 +1,7 @@
+13.Conditional Statement:
+
+"Falsy values": [0, -0, NaN, "", false, null, undefined]
+
+The void operator evaluates the given expression and then returns undefined.
+
+The void operator is often used merely to obtain the undefined primitive value, usually using “void(0)” (which is equivalent to “void 0”). In these cases, the global variable undefined can be used instead (assuming it has not been assigned to a non-default value).

@@ -1,0 +1,20 @@
+12. Variables and Blocks:
+ var a = 43;
+ let b = 43;
+ const c = 43;
+ function d() {}
+
+ Are the ways to formally declare variables.
+
+Block example:
+ {
+ 	var a = 42;
+ 	foo(1/2);
+ }
+
+Block associated to an if statement:
+ if (a < 10)
+ {
+ 	var a = 42;
+ 	foo(1/2);
+ }

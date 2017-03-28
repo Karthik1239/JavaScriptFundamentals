@@ -1,0 +1,25 @@
+15.Functions
+A function is a way to logically group a piece of code together, that can be called.
+
+Example:
+function abc() {
+    console.log("21");
+}
+
+Argument vs Parameter:
+Its an argument when you pass it in, its a parameter when you declare.
+
+
+Passing function as an argument.
+function foo(b) {
+	var a = b();
+	console.log(a)
+}
+
+function bar() {
+	return "bar";
+}
+
+foo(bar);
+
+Result: bar
